@@ -1,2 +1,2 @@
 # Python-Reading-Notes
-Myreading notes of the books about Python I have read.
+My reading notes of the books about Python (or more than that, like Linux) I have read.
