@@ -37,7 +37,8 @@
 * 高性能：
     * Cython对于I/O密集型或者调用第三方包为主的程序性能提升不大。
 * r+, w+, a+ 在于光标位置的区别
-* `------------------| r   r+   w   w+   a   a+
+
+------------------| r   r+   w   w+   a   a+
 ------------------|--------------------------
 read              | +   +        +        +
 write             |     +    +   +    +   +
@@ -45,7 +46,8 @@ write after seek  |     +    +   +
 create            |          +   +    +   +
 truncate          |          +   +
 position at start | +   +    +   +
-position at end   |                   +   +`
+position at end   |                   +   +
+
 * list的最大长度：https://stackoverflow.com/questions/855191/how-big-can-a-python-list-get
 
 
